@@ -63,7 +63,7 @@ sed -i "/CONFIG_FIRMWARE_INCLUDE_WYYBIN/d" .config       # 删除配置项 网�
 ######################################################################
 
 # 科学
-echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=n" >>.config # SS plus+
+echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >>.config # SS plus+
 echo "CONFIG_FIRMWARE_INCLUDE_SSSERVER=n" >>.config    # SS server
 echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=n" >>.config      # simple-obfs混淆插件,SS 开了才可以打开
 
@@ -75,7 +75,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_IPT2SOCKS=n" >>.config # IPT2
 
 # 广告
 echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >>.config      # adbyby plus+
-echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=n" >>.config # adgHome
+echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >>.config # adgHome
 echo "CONFIG_FIRMWARE_INCLUDE_KOOLPROXY=n" >>.config   # KP广告过滤
 
 # DNS 有关
